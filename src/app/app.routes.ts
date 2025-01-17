@@ -4,10 +4,9 @@ import { MembersDetailsComponent } from './members-details/members-details.compo
 
 
 
+
 export const serverRoutes: Routes = [
-  {
-    path: 'member/id',
-    component: MembersDetailsComponent 
     
-  },
+    { path: 'member-details/:id', component: MembersDetailsComponent }   
 ];
+
